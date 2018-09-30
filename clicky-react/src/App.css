@@ -21,6 +21,33 @@
 .App-intro {
   font-size: large;
 }
+.header {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.click-nav {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+}
+
+.foot {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgb(120, 133, 211);
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+#something {
+  margin-bottom: 40px;
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }

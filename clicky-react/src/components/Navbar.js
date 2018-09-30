@@ -2,8 +2,8 @@ import React from "react";
 
 //contains from left to right Name of game, responsive score feedback, and score(current score | top score)
 const Navbar = props => (
-    <nav className= "navbar bg-info fixed-top">
-        <ul className="nav justify-content-center">
+    <nav className= "navbar bg-info click-nav">
+        <ul className="nav">
             <li className="nav-item">
                 <a className="nav-link" href="/"> Clicky Game </a>
             </li>
