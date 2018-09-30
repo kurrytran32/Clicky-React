@@ -8,17 +8,15 @@ const Navbar = props => (
                 <a className="nav-link" href="/"> Clicky Game </a>
             </li>
             <li className="nav-item">
-            funny
-                {
-                    // content for dynamically making responses based on correct guess
-                }
+                <h4>Click to start</h4>
             </li>
             <li className="nav-item">
                 Score: 
                 {
                     // dynamic scoring
+                    props.score
                 } | Top Score: {
-
+                    props.topScore
                 }
             </li>
         </ul>
