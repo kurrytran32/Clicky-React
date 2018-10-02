@@ -2,7 +2,7 @@
   "name": "clicky-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kurrytran32,github.io/Clicky-React",
+  "homepage": "https://kurrytran32.github.io/Clicky-React",
   "dependencies": {
     "@material-ui/core": "^3.1.1",
     "react": "^16.5.2",
